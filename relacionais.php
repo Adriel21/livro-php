@@ -24,4 +24,21 @@ else if ($a !== $b) {
 
 
 echo "<hr>";
+print 'PHP considera 0 como falso';
+echo "<br>";
+$e = 0;
+//Testa se a variável é FALSE 
+if ($e == false) {
+    echo '$e é falso';
+} 
+echo "<br>";
+// testa se a variável é um false e do tipo boolean
+if ($e === false) {
+    echo '$e é false e do tipo boolean';
+}
+echo "<br>";
+// testa se é igual a zero e do mesmo tipo que zero
+if ($e === 0) {
+    echo '$e é zero mesmo';
+}
 
